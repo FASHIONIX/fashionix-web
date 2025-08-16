@@ -150,3 +150,34 @@ footer a:hover {
   color: var(--gris);
   border-top: 1px solid var(--gris);
 }
+
+/* Footer redes sociales */
+footer a i {
+  margin-right: 8px;
+  color: var(--oro);
+  font-size: 1.2em;
+}
+
+footer a:hover i {
+  color: var(--rosa);
+}
+
+/* ✅ Botón flotante WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #fff;
+  font-size: 2em;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+  background: #1ebe5d;
+}
