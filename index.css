@@ -181,3 +181,16 @@ footer a:hover i {
   transform: scale(1.1);
   background: #1ebe5d;
 }
+
+
+
+/* --- Estilo para íconos de redes sociales --- */
+footer a i {
+  margin-right: 8px;
+  color: var(--oro);  /* dorado elegante */
+  font-size: 1.2em;
+}
+
+footer a:hover i {
+  color: var(--rosa); /* cambio a rosa cuando pasas el mouse */
+}
