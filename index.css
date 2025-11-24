@@ -194,3 +194,26 @@ footer a i {
 footer a:hover i {
   color: var(--rosa); /* cambio a rosa cuando pasas el mouse */
 }
+
+
+.logo-small {
+  width: 45px;
+  margin-right: 8px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-icons i {
+  font-size: 22px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav-icons a i:hover {
+  opacity: 0.7;
+}
