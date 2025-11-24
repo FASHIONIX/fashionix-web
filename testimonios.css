@@ -146,3 +146,23 @@ footer a:hover {
   color: var(--gris);
   border-top: 1px solid var(--gris);
 }
+
+
+.fx-banner {
+    width: 100%;
+    background: #f4c2c2; /* Color suave de tu marca */
+    color: #5a4a4a;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.fx-banner div {
+    padding: 3px 10px;
+}
