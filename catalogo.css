@@ -177,35 +177,34 @@ footer a:hover {
 }
 
 
-body {
+/* --- CONTENEDOR CENTRADO --- */
+.precio-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #ffeaea;
-    padding: 40px;
-    font-family: 'Poppins', sans-serif;
+    margin: 40px 0;
 }
 
+/* --- TARJETITA DE PRECIOS --- */
 .price-card {
-    width: 360px;
-    background: #fff;
+    width: 350px;
+    background: #ffffff;
     border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 25px;
     text-align: center;
     border: 3px solid #f4c2c2;
-    margin: 0 auto;        /* CENTRADO */
-    float: none;           /* QUITAR QUE SE VAYA A LA DERECHA */
-    position: relative;    /* QUITAR POSITION RARO */
-    left: 0;               /* RESET */
-    right: 0;              /* RESET */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+    /* evita que se vaya a la derecha */
+    float: none !important;
+    position: relative !important;
+    margin: 0 auto !important;
 }
 
-
 .price-card h2 {
-    font-size: 28px;
-    margin-bottom: 0;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .subtitle {
@@ -214,34 +213,22 @@ body {
     margin-bottom: 20px;
 }
 
-.price-list {
-    margin-top: 15px;
-}
-
-.item {
+.price-list .item {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
     border-bottom: 1px solid #f3d6d6;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
-.item:last-child {
+.price-list .item:last-child {
     border-bottom: none;
 }
 
 .note {
-    margin-top: 15px;
     font-size: 13px;
     color: #b77575;
+    margin-top: 15px;
     font-style: italic;
-}
-
-.section-precios {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    margin-top: 30px;
 }
