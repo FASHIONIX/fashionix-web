@@ -194,7 +194,13 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
     border: 3px solid #f4c2c2;
+    margin: 0 auto;        /* CENTRADO */
+    float: none;           /* QUITAR QUE SE VAYA A LA DERECHA */
+    position: relative;    /* QUITAR POSITION RARO */
+    left: 0;               /* RESET */
+    right: 0;              /* RESET */
 }
+
 
 .price-card h2 {
     font-size: 28px;
