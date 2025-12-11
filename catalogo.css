@@ -175,3 +175,59 @@ footer a:hover {
 .fx-banner div {
     padding: 3px 10px;
 }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffeaea;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.price-card {
+    width: 360px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    border: 3px solid #f4c2c2;
+}
+
+.price-card h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #c77b7b;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.price-list {
+    margin-top: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f3d6d6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.note {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #b77575;
+    font-style: italic;
+}
