@@ -237,3 +237,11 @@ body {
     color: #b77575;
     font-style: italic;
 }
+
+.section-precios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 30px;
+}
